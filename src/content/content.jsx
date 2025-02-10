@@ -102,7 +102,8 @@ const content = {
           <span className="text-primary">esperanças</span>
         </h1>
       ),
-      subtitle: "Com ética e dedicação, luto pelos seus direitos com justiça.",
+      subtitle:
+        "Com ética e dedicação lutamos por seus direitos em todas as instâncias do Poder Judiciário e/ou da Administração Pública.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -153,13 +154,14 @@ const content = {
       miniTag: "ÁREAS DE ATUAÇÃO",
       title: "Especialidades jurídicas",
       subtitle:
-        "Compromisso em defender seus direitos em diversas áreas do direito.",
+        "Compromisso em defender seus interesses diante de diversos ramos do Direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário e Administrativo",
-        subtitle: "Assessoria completa em benefícios, servidores e concursos.",
+        title: "Previdenciário",
+        subtitle:
+          "Assessoria na busca por aposentadoria, BPC Loas, auxílio-doença acidentário e outros direitos previdenciários.",
         description: (
           <div>
             A_Definir
@@ -195,8 +197,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Consumidor e Bancário",
-        subtitle: "Defesa de direitos no consumo e questões bancárias.",
+        title: "Consumidor e Bancário",
+        subtitle:
+          "Atuação contra empresas aéreas, transporte coletivo, dívidas bancárias, planos de saúde e cobranças indevidas.",
         description: (
           <div>
             A_Definir
@@ -232,8 +235,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Penal",
-        subtitle: "Assistência jurídica em prisões e processos criminais.",
+        title: "Penal",
+        subtitle:
+          "Acompanhamento em prisão em flagrante, audiências de custódia e questões de trânsito, com foco na embriaguez ao volante.",
         description: (
           <div>
             A_Definir <br />
@@ -267,8 +271,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Resolução de disputas familiares e sucessões patrimoniais.",
+        title: "Família e Sucessões",
+        subtitle:
+          "Atuação em inventário, divórcio, guarda, pensão alimentícia, e curatela.",
         description: (
           <div>
             A_Definir
@@ -303,8 +308,9 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Administrativo",
+        subtitle:
+          "Assessoria em processos administrativos, direito do servidor público e apoio a candidatos em concursos.",
         description: (
           <div>
             A_Definir
@@ -319,11 +325,16 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-book-check"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
+            <path d="m9 9.5 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -331,8 +342,8 @@ const content = {
       },
       card6: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Saiba mais",
+        subtitle: "Fale com nossa equipe e tire todas as suas dúvidas.",
         description: (
           <div>
             A_Definir
@@ -347,11 +358,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-list-check"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M11 18H3" />
+            <path d="m15 18 2 2 4-4" />
+            <path d="M16 12H3" />
+            <path d="M16 6H3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -385,39 +403,77 @@ const content = {
       subtitle: "Comprometido com a justiça, movido pela esperança.",
       paragraph: (
         <div>
-          Minha jornada no direito começou em 2003, como estagiário no Juizado
-          Especial, onde tive meu primeiro contato com a prática jurídica e
-          descobri o impacto transformador do direito na vida das pessoas.
+          Minha jornada no direito começou em 2003, quando iniciei os estudos na
+          Faculdade de Direito de Varginha, enquanto já estagiava no Juizado
+          Especial da minha cidade natal, Boa Esperança - MG.
           <br />
-          Apesar de precisar interromper a graduação no primeiro ano, retomei os
-          estudos em 2006, concluindo minha formação em 2010.
+          Essa experiência foi um marco, pois foi ali que tive o primeiro
+          contato direto com a prática jurídica e pude perceber de perto o
+          impacto profundo e transformador que o direito exerce na vida das
+          pessoas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha jornada no direito começou em 2003, como estagiário no Juizado
-          Especial, onde tive meu primeiro contato com a prática jurídica e
-          descobri o impacto transformador do direito na vida das pessoas.
+          Minha jornada no direito começou em 2003, quando iniciei os estudos na
+          Faculdade de Direito de Varginha, enquanto já estagiava no Juizado
+          Especial da minha cidade natal, Boa Esperança - MG.
           <br />
           <br />
-          Apesar de precisar interromper a graduação no primeiro ano, retomei os
-          estudos em 2006, concluindo minha formação em 2010.
+          Essa experiência foi um marco, pois foi ali que tive o primeiro
+          contato direto com a prática jurídica e pude perceber de perto o
+          impacto profundo e transformador que o direito exerce na vida das
+          pessoas.
           <br />
           <br />
-          Desde 2012, atuo como advogado, sempre guiado por valores como
-          transparência, comprometimento e ética.
+          No entanto, logo percebi que esse impacto nem sempre é visto de
+          maneira positiva, já que muitas vezes, as pessoas se veem obrigadas a
+          recorrer ao direito para resolver conflitos, proteger seus direitos ou
+          superar dificuldades. O direito, para elas, não é uma escolha, mas uma
+          necessidade.
           <br />
           <br />
-          Aperfeiçoar constantemente meu conhecimento, sendo pós-graduado em
-          Direito Administrativo pela Faculdade Damásio de Jesus e atualmente
-          cursando especializações em Direito e Processo Constitucional e
-          Direito do Consumidor.
+          Embora tenha interrompido meus estudos no primeiro ano da graduação,
+          uma pausa forçada, retomei minha trajetória em 2006, com mais força e
+          determinação. Em 2010, finalmente concluí minha formação na Faceca -
+          Faculdade Cenecista de Varginha, superando as dificuldades do passado
+          e mais convicto do meu propósito.
           <br />
           <br />
-          Para mim, a advocacia é mais do que uma profissão: é a chance de
-          transformar vidas, lutar por justiça e abraçar histórias com empatia e
-          dedicação. Cada caso é uma oportunidade de fazer a diferença.
+          Desde então, a advocacia passou a ser não apenas a minha profissão,
+          mas uma verdadeira missão. Desde 2012, venho atuando como advogado,
+          sempre guiado por valores inegociáveis como transparência,
+          comprometimento e ética.
+          <br />
+          <br />
+          Acredito que, mais do que fornecer soluções jurídicas, é essencial
+          humanizar a profissão, tratando cada cliente com a dignidade e
+          respeito que merece.
+          <br />
+          <br />
+          Além disso, a paixão pela área do direito me leva a buscar
+          constantemente o aperfeiçoamento. Sou pós-graduado em Direito
+          Administrativo com Ênfase em Gestão Pública pela Faculdade Damásio de
+          Jesus, um curso que me proporcionou uma visão mais ampla e estratégica
+          do direito no contexto público.
+          <br />
+          <br />
+          Atualmente, estou em busca de mais conhecimento, cursando
+          especialização em Direito e Processo Constitucional e Direito do
+          Consumidor, áreas que considero essenciais para acompanhar a evolução
+          das demandas da sociedade.
+          <br />
+          <br />
+          Acredito que a advocacia é mais do que uma profissão; é um compromisso
+          com a transformação de vidas. Cada caso que recebo é uma oportunidade
+          de lutar por justiça, de ouvir as histórias por trás de cada situação
+          e de oferecer soluções com empatia e dedicação.
+          <br />
+          <br />
+          Cada cliente, cada desafio, é uma chance de fazer a diferença no mundo
+          ao meu redor e, para mim, isso é o que torna a advocacia uma jornada
+          tão especial e gratificante.
           <br />
           <br />
         </p>
@@ -481,7 +537,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Procedimento eficaz",
           cardDescription:
-            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
+            "Iniciamos ações focadas na resolução de conflitos, abrangendo tanto os judiciais quanto os extrajudiciais",
         },
       },
     },
