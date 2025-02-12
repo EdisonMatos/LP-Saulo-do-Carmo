@@ -42,7 +42,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Saulo Rodrigues",
+  name: "Dr. Saulo Rodrigo",
   email: "contato", // Email desejado pelo cliente
   domain: "advocaciasaulorc.adv.br", // Sem "www"
   phone: {
@@ -96,14 +96,18 @@ const content = {
     hero: {
       miniTag: "ADVOGADO EM VARGINHA - MG",
       title: (
-        <h1 className="mb-[16px]">
-          A advocacia não é a profissão das
-          <span className="text-primary"> certezas</span>, mas das{" "}
-          <span className="text-primary">esperanças</span>
+        <h1 className="mb-[16px] ">
+          Honeste vivere, alterum non laedere, suum cuique tribuere. <br />
+          <span className="text-primary">
+            - Viver honestamente, não lesar ninguém, dar a cada um o que lhe
+            pertence.
+          </span>
+          <span className="text-primary"> </span>
+          <span className="text-primary"></span>
         </h1>
       ),
       subtitle:
-        "Com ética e dedicação lutamos por seus direitos em todas as instâncias do Poder Judiciário e/ou da Administração Pública.",
+        "Lutamos com ética, compromisso e dedicação por seus direitos em todas as instâncias do Poder Judiciário e/ou da Administração Pública.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -154,14 +158,14 @@ const content = {
       miniTag: "ÁREAS DE ATUAÇÃO",
       title: "Especialidades jurídicas",
       subtitle:
-        "Compromisso em defender seus interesses diante de diversos ramos do Direito.",
+        "Compromisso em defender seus interesses e atender suas necessidades perante a Lei amparado pelos diversos ramos das ciências jurídicas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
         title: "Previdenciário",
         subtitle:
-          "Assessoria na busca por aposentadoria, BPC Loas, auxílio-doença acidentário e outros direitos previdenciários.",
+          "Assessoria na busca por aposentadorias; BPC LOAS; auxílio-doença por enfermidades e/ou acidentes de qualquer natureza.",
         description: (
           <div>
             A_Definir
@@ -199,7 +203,7 @@ const content = {
         img: featuresImg2,
         title: "Consumidor e Bancário",
         subtitle:
-          "Atuação contra empresas aéreas, transporte coletivo, dívidas bancárias, planos de saúde e cobranças indevidas.",
+          "Atuação especializada contra empresas aéreas; transporte coletivo rodoviário; contratos bancários; contratos bancários; cobranças indevidas.",
         description: (
           <div>
             A_Definir
@@ -237,7 +241,7 @@ const content = {
         img: featuresImg3,
         title: "Penal",
         subtitle:
-          "Acompanhamento em prisão em flagrante, audiências de custódia e questões de trânsito, com foco na embriaguez ao volante.",
+          "Acompanhamento de prisão em flagrante; audiências de custódia; processos criminais; questões relacionadas ao direito de trânsito; multas por embriaguez ao volante; recursos administrativos de infrações.",
         description: (
           <div>
             A_Definir <br />
@@ -273,7 +277,7 @@ const content = {
         img: featuresImg4,
         title: "Família e Sucessões",
         subtitle:
-          "Atuação em inventário, divórcio, guarda, pensão alimentícia, e curatela.",
+          "Propositura e defesas em demandas de inventário, divórcios, guarda de menores, pensão alimentícia e curatela (interdição).",
         description: (
           <div>
             A_Definir
@@ -310,7 +314,7 @@ const content = {
         img: featuresImg4,
         title: "Administrativo",
         subtitle:
-          "Assessoria em processos administrativos, direito do servidor público e apoio a candidatos em concursos.",
+          "Assessoria e acompanhamento em processos judiciais e administrativos que discutem os direitos dos servidores públicos e dos candidatos em concursos públicos.",
         description: (
           <div>
             A_Definir
@@ -398,7 +402,7 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR SAULO RODRIGUES",
+      miniTag: "QUEM É O DR SAULO RODRIGO",
       title: "Minha trajetória",
       subtitle: "Comprometido com a justiça, movido pela esperança.",
       paragraph: (
