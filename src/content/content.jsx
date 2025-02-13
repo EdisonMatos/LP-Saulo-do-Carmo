@@ -42,7 +42,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Saulo Rodrigo",
+  name: "DR. SAULO RODRIGO DO CARMO",
   email: "contato", // Email desejado pelo cliente
   domain: "advocaciasaulorc.adv.br", // Sem "www"
   phone: {
@@ -203,7 +203,7 @@ const content = {
         img: featuresImg2,
         title: "Consumidor e Bancário",
         subtitle:
-          "Atuação especializada contra empresas aéreas; transporte coletivo rodoviário; contratos bancários; contratos bancários; cobranças indevidas.",
+          "Atuação especializada contra empresas aéreas; transporte coletivo rodoviário; contratos bancários; cobranças indevidas.",
         description: (
           <div>
             A_Definir
@@ -574,7 +574,12 @@ const content = {
       paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     footer: {
-      copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
+      copyrightLine: (
+        <p>
+          {currentYear} - {infos.name} - ADVOCACIA E CONSULTORIA JURÍDICA <br />
+          TODOS OS DIREITOS RESERVADOS
+        </p>
+      ),
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
       midSectionName: "Até mais",
       footerText:

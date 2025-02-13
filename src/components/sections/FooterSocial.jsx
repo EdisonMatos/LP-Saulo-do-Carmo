@@ -377,10 +377,10 @@ export default function FooterSocial({
           <div className="hidden w-[88%] max-w-[1110px] bg-secondary"></div>
 
           <div className="text-center w-full phone2:w-[90%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
-            <p className="w-full opacity-75">
+            <p className="w-full font-bold opacity-75">
               {content.texts.footer.copyrightLine}
             </p>
-            <p>
+            {/* <p>
               <a
                 className="transition hover:underline"
                 target="_blank"
@@ -389,7 +389,7 @@ export default function FooterSocial({
                 {" "}
                 {content.texts.infos.footerDivulgacaoText}
               </a>
-            </p>
+            </p> */}
           </div>
         </SectionWrapper>
       </SectionArea>
